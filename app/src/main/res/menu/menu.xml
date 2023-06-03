@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_home_fragment"
+        android:icon="@drawable/ic_home"
+
+        android:checkable="true"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/id_edit_fragment"
+        android:icon="@drawable/ic_edit"
+        android:checkable="true"
+        android:title="Editar Plan"/>
+    <item
+        android:id="@+id/id_settings_fragment"
+        android:icon="@drawable/ic_settings"
+        android:checkable="true"
+        android:title="Configuración"/>
+    <item
+        android:id="@+id/id_info_fragment"
+        android:icon="@drawable/ic_info"
+        android:checkable="true"
+        android:title="Acerca de Nosotros"/>
+</menu>

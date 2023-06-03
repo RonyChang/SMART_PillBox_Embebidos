@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AgregarPlanFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="Identificador" />
+
+    <EditText
+        android:id="@+id/ingresar_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre del Plan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="25dp"
+        android:text="Nombre del Medicamento" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese Medicamento" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="25dp"
+        android:text="Días" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="200dp"
+        android:focusable="true"
+        android:text="Todos los días" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Lunes"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/toggle_button_selector"
+        android:textOff="L"
+        android:textOn="L"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Martes"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="73dp"
+        android:background="@drawable/toggle_button_selector"
+        android:textOff="M"
+        android:textOn="M"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Miercoles"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="121dp"
+        android:background="@drawable/toggle_button_selector"
+        android:textOff="X"
+        android:textOn="X"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Jueves"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="169dp"
+        android:background="@drawable/toggle_button_selector"
+        android:textOff="J"
+        android:textOn="J"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Viernes"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="217dp"
+        android:background="@drawable/toggle_button_selector"
+        android:textOff="V"
+        android:textOn="V"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Sabado"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="265dp"
+        android:background="@drawable/toggle_button_selector"
+        android:textOff="S"
+        android:textOn="S"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_Domingo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="313dp"
+        android:background="@drawable/toggle_button_selector"
+        android:textOff="D"
+        android:textOn="D"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="25dp"
+        android:text="Horas" />
+
+
+
+
+
+</FrameLayout>

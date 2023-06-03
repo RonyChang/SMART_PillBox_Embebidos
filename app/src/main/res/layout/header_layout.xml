@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_pillapp_foreground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/channelname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMART Pillbox"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

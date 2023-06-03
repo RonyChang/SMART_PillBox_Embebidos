@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="texts">#000000</color>
+    <color name="Background_Color">#E9DCD0</color>
+    <color name="toolbar_elements">#C2AE87</color>
+    <color name="Boton_color">#78602F</color>
+    <color name="Boton_color_pressed">#AE8835</color>
+
+</resources>
